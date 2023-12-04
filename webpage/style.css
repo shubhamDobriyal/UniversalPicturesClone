@@ -1,0 +1,260 @@
+.navbar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 4;
+	background-color: black;
+}
+.nav-link > .fa-brands {
+	font-size: x-large !important;
+}
+
+main {
+	margin-top: 3.7rem;
+}
+.block-2 {
+	height: 70vh;
+}
+
+.custom-carousel-inner {
+	height: 70vh;
+}
+.custom-carousel-item {
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+
+.custom-carousel-btn-div {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: absolute;
+	width: 100%;
+	bottom: 10px;
+	padding: 20px;
+}
+.custom-carousel-btn-center {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 35%;
+}
+/** Scroll Buttom **/
+.custom-carousel-scroll-btn {
+	background-color: white;
+	color: blue !important;
+	height: 2rem;
+	width: 2em;
+	border-radius: 100%;
+	opacity: 100;
+}
+.custom-prev-btn {
+	position: static;
+	/* top: 100%;
+	left: 20px; */
+}
+.custom-next-btn {
+	position: static;
+}
+/** Scroll Buttom End**/
+.custom-center-btn {
+	color: #2e66a7;
+	font-weight: bolder;
+	padding-left: 3%;
+
+	border: none;
+	background-color: white;
+}
+.custom-center-btn > i {
+	height: 50px;
+	width: 50px;
+	border-radius: 100%;
+	background-color: #f5f3f4;
+	color: #2e66a7 !important;
+}
+.side-card-img {
+	width: 35% !important;
+}
+
+.card > .card-body > .custom-side-card-title {
+	color: #2573d3;
+	font-size: 0.99rem;
+}
+.card > .custom-side-card-body {
+	padding: 0rem 1rem;
+}
+.card > .custom-side-card-body > .custom-side-card-text {
+	font-size: 0.7rem;
+}
+
+.side-scroll {
+	background-color: #1a1b1b;
+}
+
+.side-scroll::-webkit-scrollbar {
+	width: 15px;
+}
+
+/* Track */
+.side-scroll::-webkit-scrollbar-track {
+	background: transparent;
+}
+
+/* Handle */
+.side-scroll::-webkit-scrollbar-thumb {
+	background: #2c2d2d;
+}
+
+/* Handle on hover */
+.side-scroll::-webkit-scrollbar-thumb:hover {
+	background: #616161;
+}
+
+.custom-video-scroll-btn {
+	background-color: white;
+	color: blue !important;
+	height: 2rem;
+	width: 2em;
+	border-radius: 100%;
+	opacity: 100;
+	position: absolute;
+	top: 90px;
+}
+
+.custom-video-scroll-prev-btn {
+	position: absolute;
+	top: 90px;
+	left: -3%;
+}
+
+.custom-video-scroll-next-btn {
+	position: absolute;
+	top: 90px;
+	right: -3%;
+}
+
+.video-slider-block {
+	padding: 0rem 7rem 2rem 7rem;
+	height: auto;
+}
+
+.video-slider-col > i {
+	position: absolute;
+	top: 35%;
+	font-size: xx-large;
+	left: 47%;
+	color: white;
+}
+.video-slider-col > p {
+	font-size: 1.2em;
+	font-weight: 600;
+	color: #000;
+}
+
+.promo-img2 {
+	background-image: url("https://www.universalpictures.com/assets/img/page-home/signup-background.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.promo-body {
+	height: 50%;
+	display: flex;
+	margin-left: 5%;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.input-email {
+	position: relative;
+	width: 19rem;
+}
+.promo-user-email {
+	width: 100%;
+	border: 2px solid white;
+	color: white;
+}
+
+.input-email > input:focus ~ .floating-label {
+	top: -25px;
+	left: 20px;
+	opacity: 1;
+}
+
+.floating-label {
+	position: absolute;
+	pointer-events: none;
+	left: 20px;
+	top: 15px;
+	transition: 0.2s ease all;
+	font-weight: bold;
+}
+
+.input-email > .input-icon {
+	position: absolute;
+	right: 0.5rem;
+	top: 0.5rem;
+	color: #2573d3;
+	background-color: #fff;
+	width: 45px;
+	height: 45px;
+	border-radius: 100%;
+}
+.input-email > .input-icon > i {
+	position: absolute;
+	top: 35%;
+	left: 35%;
+}
+
+.img1-col-6 {
+	width: 50%;
+	height: 35rem;
+	background-image: url("https://www.universalpictures.com/media/090823-the-irrationals-s1-upg-960x500-streaming-65249b45d3716.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.img2-col-6 {
+	width: 50%;
+	height: 35rem;
+
+	background-image: url("https://www.universalpictures.com/media/voice-s24-upg-960x500-k-streaming-65249b6f65daf.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.navbar { 
+	position: fixed; 
+	top: 0; 
+	left: 0; 
+	width: 100%; 
+	z-index: 4; 
+	background-color: black; 
+	height: 74px; 
+   } 
+   .nav-link > .fa-brands { 
+	font-size: xx-large !important; 
+   } 
+   .navbar-brand { 
+	width: 180px; 
+	height: 89px; 
+	position: absolute; 
+	top: 6px; 
+	left: 50px; 
+	animation: play 9.5s steps(142) infinite; 
+	background-image: url("https://www.universalpictures.com/assets/img/spritesheet.png"); 
+	
+	background-size: 100% auto; 
+	/* background-size: contain; */ 
+   } 
+   @keyframes play { 
+	100% { 
+	 background-position: 0 -12638px; 
+	} 
+   }
+   

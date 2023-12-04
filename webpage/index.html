@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+		integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="style.css" />
+	<title>Universal Picture Clone</title>
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark py-2">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#"></a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+				aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse justify-content-end d-flex gap-5" id="navbarNav">
+				<ul class="navbar-nav d-flex gap-5">
+					<li class="nav-item">
+						<a class="nav-link text-white" aria-current="page" href="#">Movies</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-white" href="#">Trailers</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-white" href="#">News & Press</a>
+					</li>
+				</ul>
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link text-white" href="#">...</a>
+					</li>
+				</ul>
+				<ul class="navbar-nav d-flex gap-2">
+					<li class="nav-item">
+						<a class="nav-link text-white" href="#"><i class="fa-brands fa-x-twitter"></i></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-white" href="#"><i class="fa-brands fa-facebook"></i></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-white" href="#"><i class="fa-brands fa-instagram"></i></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-white" href="#"><i class="fa-brands fa-youtube"></i></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-white" href="#"><i class="fa-brands fa-tiktok"></i></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-white" href="#"><i class="fa-brands fa-snapchat"></i></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<main>
+		<div class="row block-2 me-0">
+			<div class="col-9 p-0">
+				<!-- Slider start -->
+
+				<div id="carouselExample" data-bs-touch="false" data-bs-interval="false"
+					class="carousel slide position-relative">
+					<div class="carousel-inner custom-carousel-inner">
+						<div class="carousel-item custom-carousel-item c-img1 active ">
+							<img class="d-block w-100 h-100"
+								src="https://movies.universalpictures.com/media/02-tbt-dm-mainstage-banner-1900x905-now-sl-f01-091223-6556bf1bcb715-1.jpg"
+								alt="">
+						</div>
+						<div class="carousel-item custom-carousel-item c-img2">
+							<img class="d-block w-100 h-100"
+								src="https://movies.universalpictures.com/media/06-fnf-dm-mainstage-banner-1900x905-n-kr-f01-101923-653b04a630cfc-1.jpg"
+								alt="">
+
+						</div>
+						<div class="carousel-item custom-carousel-item c-img3">
+							<img class="d-block w-100 h-100"
+								src="https://movies.universalpictures.com/media/03-exorcistbeliever-mainstage-banner-1900x905-pw-653aa968d30c6-1.jpg"
+								alt="">
+
+						</div>
+						<div class="carousel-item custom-carousel-item c-img4">
+							<img class="d-block w-100 h-100"
+								src="https://movies.universalpictures.com/media/02-mig-dm-mainstage-banner-1900x905-rr-f01-071323-1-64b6fd8c7d3bc-1.jpg"
+								alt="">
+
+						</div>
+						<div class="carousel-item custom-carousel-item c-img5">
+							<img class="d-block w-100 h-100"
+								src="https://movies.universalpictures.com/media/01-arg-dm-mainstage-banner-1900x905-pl-f01-092523-6512ec932506e-1.jpg"
+								alt="">
+
+						</div>
+						<div class="carousel-item custom-carousel-item c-img6">
+							<img class="d-block w-100 h-100"
+								src="https://movies.universalpictures.com/media/02-fg-dm-mainstage-banner-1900x905-sl-f01-111523-65555f561141a-1.jpg"
+								alt="">
+
+						</div>
+						<div class="carousel-item custom-carousel-item c-img7">
+							<img class="d-block w-100 h-100"
+								src="https://movies.universalpictures.com/media/01-ns-dm-mainstage-banner-1900x905-pl-f01-100423-651f04707747b-1.jpg"
+								alt="">
+
+						</div>
+					</div>
+
+					<!-- carousel next and Prev Button -->
+					<div class="custom-carousel-btn-div">
+						<button class="carousel-control-prev custom-carousel-scroll-btn custom-prev-btn" type="button"
+							data-bs-target="#carouselExample" data-bs-slide="prev">
+
+							<i class="fa-solid fa-arrow-left"></i>
+							</span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="visually-hidden"></span>
+						</button>
+
+
+
+						<!-- carousel Center Button -->
+						<div class="custom-carousel-btn-center">
+							<button
+								class="rounded-pill d-flex justify-content-between align-items-center about-film custom-center-btn">
+								ABOUT THE FILM
+								<i style="height: 50px; width: 50px; border-radius: 100%; background-color: #f5f3f4; color: #2e66a7 !important;"
+									class="fa-solid fa-arrow-right d-flex align-items-center justify-content-center"></i>
+							</button>
+							<button
+								class="rounded-pill d-flex justify-content-between align-items-center watch-trailer custom-center-btn">
+								ABOUT THE FILM
+								<i class="fa-solid fa-arrow-right d-flex align-items-center justify-content-center"></i>
+							</button>
+						</div>
+
+						<!-- carousel Center Button End -->
+
+
+
+						<button class="carousel-control-next custom-carousel-scroll-btn custom-next-btn" type="button"
+							data-bs-target="#carouselExample" data-bs-slide="next">
+
+							<i class="fa-solid fa-arrow-right"></i>
+							</span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="visually-hidden"></span>
+						</button>
+
+
+
+						<!-- carousel Next and Prev Button End -->
+					</div>
+
+
+
+				</div>
+
+				<!-- Slider end -->
+			</div>
+			<div class="col-3 p-0 h-100">
+				<div class="side-scroll overflow-auto h-100">
+					<div class="card bg-transparent  d-flex flex-row justify-content-center p-3">
+						<img src="https://movies.universalpictures.com/media/02-tbt-dm-thumbnail-803x519-sl-f01-091223-65028928cdafb-1.jpg"
+							class="card-img-top side-card-img" alt="...">
+						<div class="card-body custom-side-card-body">
+							<h5 class="card-title custom-side-card-title">Trolls Brand Together</h5>
+							<p class="card-text custom-side-card-text text-white">IN THEATERS NOW</p>
+						</div>
+					</div>
+					<div class="card bg-transparent  d-flex flex-row justify-content-center p-3">
+						<img src="https://movies.universalpictures.com/media/03-fnf-dm-thumbnail-803x519-km-f01-051623-64643a81ce6d6-1.jpg"
+							class="card-img-top side-card-img" alt="...">
+						<div class="card-body custom-side-card-body">
+							<h5 class="card-title custom-side-card-title">Five Nights at Freddy's</h5>
+							<p class="card-text custom-side-card-text text-white">In Theaters & Streaming On Peacock Now
+							</p>
+						</div>
+					</div>
+					<div class="card bg-transparent  d-flex flex-row justify-content-center p-3">
+						<img src="https://movies.universalpictures.com/media/01-exo-dm-thumbnail-803x519-pl-f01-071823-64b94d3fb2f92-1.jpg"
+							class="card-img-top side-card-img" alt="...">
+						<div class="card-body custom-side-card-body">
+							<h5 class="card-title custom-side-card-title">The Exorcist: Believer</h5>
+							<p class="card-text custom-side-card-text text-white">Watch At Home</p>
+						</div>
+					</div>
+					<div class="card bg-transparent  d-flex flex-row justify-content-center p-3">
+						<img src="https://movies.universalpictures.com/media/02-mig-dm-thumbnail-803x519-rr-f01-071323-1-64b6fea46d3f2-1.jpg"
+							class="card-img-top side-card-img" alt="...">
+						<div class="card-body custom-side-card-body">
+							<h5 class="card-title custom-side-card-title">Migration</h5>
+							<p class="card-text custom-side-card-text text-white">Only In Theaters December 22</p>
+						</div>
+					</div>
+					<div class="card bg-transparent  d-flex flex-row justify-content-center p-3">
+						<img src="https://movies.universalpictures.com/media/01-arg-dm-thumbnail-803x519-pl-f01-092523-6512ecbd4bc2a-1.jpg"
+							class="card-img-top side-card-img" alt="...">
+						<div class="card-body custom-side-card-body">
+							<h5 class="card-title custom-side-card-title">Argylle</h5>
+							<p class="card-text custom-side-card-text text-white">In Theaters February 2, 2024</p>
+						</div>
+					</div>
+					<div class="card bg-transparent  d-flex flex-row justify-content-center p-3">
+						<img src="https://movies.universalpictures.com/media/01-01-fg-dm-thumbnail-803x519-rr-f01-110123-6543ba16241f0-1.jpg"
+							class="card-img-top side-card-img" alt="...">
+						<div class="card-body custom-side-card-body">
+							<h5 class="card-title custom-side-card-title">The Fall Guy</h5>
+							<p class="card-text custom-side-card-text text-white">Only In Theaters May 3, 2024</p>
+						</div>
+					</div>
+					<div class="card bg-transparent  d-flex flex-row justify-content-center p-3">
+						<img src="https://movies.universalpictures.com/media/01-ns-dm-thumbnail-803x519-pl-f01-100423-651f04afa581e-1.jpg"
+							class="card-img-top side-card-img" alt="...">
+						<div class="card-body custom-side-card-body">
+							<h5 class="card-title custom-side-card-title">Night Swim</h5>
+							<p class="card-text custom-side-card-text text-white">Only in Theaters January 5</p>
+						</div>
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+		<section class=" video-slider-block h-25">
+			<div class="d-flex justify-content-between align-items-center">
+				<h1 class="py-4">Trailers</h1>
+				<div
+					class="bg-danger rounded-pill d-flex align-items-center px-4 py-2 justify-content-center text-white">
+					<i class="fa-brands fa-youtube"></i>
+					<p class="ps-1 m-0">FOLLOW</p>
+				</div>
+			</div>
+
+			<div id="carouselExampleControls1" data-bs-touch="false" data-bs-interval="false"
+				class="carousel slide position-relative" data-bs-ride="carousel">
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<div class="row">
+							<div class="col video-slider-col position-relative">
+								<img src="https://i.ytimg.com/vi/PhlLO3Nb3sY/maxresdefault.jpg" class="d-block w-100"
+									alt="...">
+								<p>Night Swim | Official Trailer 2</p>
+								<i class="fa-regular fa-circle-play"></i>
+
+							</div>
+							<div class="col video-slider-col position-relative">
+								<img src="https://i.ytimg.com/vi/j7jPnwVGdZ8/maxresdefault.jpg" class="d-block w-100"
+									alt="...">
+								<i class="fa-regular fa-circle-play"></i>
+
+								<p>The Fall Guy | Official Trailer</p>
+							</div>
+							<div class="col video-slider-col position-relative">
+								<img src="https://i.ytimg.com/vi/pcSNqteCEtE/maxresdefault.jpg" class="d-block w-100"
+									alt="...">
+								<i class="fa-regular fa-circle-play"></i>
+								<p>Night Swim | Official Trailer</p>
+
+							</div>
+							<div class="col video-slider-col position-relative">
+								<img src="https://i.ytimg.com/vi/7mgu9mNZ8Hk/maxresdefault.jpg" class="d-block w-100"
+									alt="...">
+								<p>Argylle | Official Trailer</p>
+								<i class="fa-regular fa-circle-play"></i>
+
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="row">
+							<div class="col video-slider-col position-relative">
+								<img src="https://i.ytimg.com/vi/CbVIo4sk7DA/maxresdefault.jpg" class="d-block w-100"
+									alt="...">
+								<p>
+									Five Nights at Freddy's | In theaters and streaming on Peacock October 27 (TV SPOT
+									#4)
+
+								</p>
+								<i class="fa-regular fa-circle-play"></i>
+							</div>
+							<div class="col video-slider-col position-relative">
+								<img src="https://i.ytimg.com/vi/zcr8ru6LqLY/maxresdefault.jpg" class="d-block w-100"
+									alt="...">
+								<p>
+									Five Nights at Freddy's | In theaters and streaming on Peacock October 27 (TV SPOT
+									#3)
+
+								</p>
+								<i class="fa-regular fa-circle-play"></i>
+							</div>
+							<div class="col video-slider-col position-relative">
+								<img src="https://i.ytimg.com/vi/NEQyOvZmuFE/maxresdefault.jpg" class="d-block w-100"
+									alt="...">
+								<p>
+									Five Nights at Freddy's | In theaters and streaming on Peacock October 27 (TV SPOT
+									#2)
+
+								</p>
+								<i class="fa-regular fa-circle-play"></i>
+							</div>
+							<div class="col video-slider-col position-relative">
+								<img src="https://i.ytimg.com/vi/JZrpoPITYQs/maxresdefault.jpg" class="d-block w-100"
+									alt="...">
+
+								<p>Five Nights at Freddy's | In theaters and streaming on Peacock October 27 (TV SPOT
+									#1)</p>
+								<i class="fa-regular fa-circle-play"></i>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<button class="carousel-control-prev custom-video-scroll-btn custom-video-scroll-prev-btn" type="button"
+					data-bs-target="#carouselExampleControls1" data-bs-slide="prev">
+
+					<i class="fa-solid fa-arrow-left"></i>
+					</span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden"></span>
+				</button>
+				<button class="carousel-control-next custom-video-scroll-btn custom-video-scroll-next-btn" type="button"
+					data-bs-target="#carouselExampleControls1" data-bs-slide="next">
+
+					<i class="fa-solid fa-arrow-right"></i>
+					</span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden"></span>
+				</button>
+			</div>
+
+
+		</section>
+
+		<section class="promo-row">
+			<div class="d-flex">
+				<div class="col-6 p-0">
+					<img src="https://www.universalpictures.com/media/pktv-00062308-000139025-1jp-649c773041f65.jpg"
+						alt="" class="w-100">
+				</div>
+				<div class="col-6 promo-img2 p-0 text-white">
+					<div class="promo-body">
+
+						<h1>BE THE FIRST TO KNOW</h1>
+						<p>Sign up now for exclusive giveaways, advance <br> screenings, sneak-peeks and much, much
+							more.
+						</p>
+						<div class="input-email">
+							<input type="text" class="rounded-pill px-4 py-3 bg-transparent promo-user-email">
+							<span class="floating-label">Your email address</span>
+							<div class="input-icon">
+
+								<i class="fa-solid fa-arrow-right"></i>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<div class="row">
+				.col*
+			</div>
+		</section>
+
+		<section>
+			<div class="d-flex">
+				<div class="col-6 img1-col-6">
+				</div>
+				<div class="col-6 img2-col-6">
+				</div>
+			</div>
+		</section>
+
+	</main>
+	<footer class="bg-dark" style="color: #8E8E8E;">
+		<div class="row p-5" style="width: 99%;">
+			<div class="col-2 p-0">
+				<img src="https://www.universalpictures.com/assets/svg/universallogo.svg" alt="" style="width: 40%;">
+			</div>
+			<div class="col-3 p-0">
+				<p>Movies</p>
+				<p>Trailers</p>
+				<p>News & Press</p>
+			</div>
+			<div class="col-3 p-0">
+				<p>About</p>
+				<p>NBCUniversal</p>
+				<p>Home Entertainment</p>
+				<p>Universal Products & Experiences</p>
+				<p>Global Talent Development and Inclusion</p>
+				<p>Universal Studios Parks & Resorts</p>
+				<p>Careers</p>
+			</div>
+			<div class="col-2 p-0">
+				<p>Terms of Service</p>
+				<p>Privacy Policy</p>
+				<p>Ad Choices</p>
+				<p>CA Notice</p>
+				<p>Canada</p>
+				<p>International</p>
+				<p>ParentalGuide.com</p>
+				<p>FilmRatings.com</p>
+				<p>MPAA.org</p>
+				<p>Contact Us</p>
+				<p>Tobacco Policy</p>
+				<p>YouTube Terms of Service</p>
+				<p>Google Privacy Policy</p>
+			</div>
+			<div class="col-2 p-0 text-white">
+				<ul class="footer-social d-flex gap-4 list-unstyled h2 justify-content-end">
+					<li class="footer-items">
+						<i class="fa-brands fa-x-twitter"></i>
+					</li>
+					<li class="footer-items">
+						<i class="fa-brands fa-facebook"></i>
+					</li>
+					<li class="footer-items">
+						<i class="fa-brands fa-instagram"></i>
+					</li>
+					<li class="footer-items">
+						<i class="fa-brands fa-youtube"></i>
+					</li>
+					<li class="footer-items">
+						<i class="fa-brands fa-tiktok"></i>
+					</li>
+					<li class="footer-items">
+						<i class="fa-brands fa-snapchat"></i>
+					</li>
+				</ul>
+				<div style="text-align: end; color: #8E8E8E;">
+					@2023 Universal Picture
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+		crossorigin="anonymous"></script>
+</body>
+
+</html>
